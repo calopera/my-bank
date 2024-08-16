@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "prd"
+
+  build:
+    version: "v0.0.2"
+
+support:
+  message: "Bienvenidos al sistema de cuentas bancarias de Accenture - Sistema en producción"
+  contactInfo:
+    name: "PRD"
+    email: "product.tester@prueba_prd.com"
+  phoneNumbers:
+    - (57) 301
+    - (57) 300

@@ -1,0 +1,11 @@
+build:
+    version: "v0.0.2"
+
+support:
+  message: "Bienvenidos al sistema de cuentas bancarias de Accenture"
+  contactInfo:
+    name: "Carlos Arturo"
+    email: "carlos@prueba.com"
+  phoneNumbers:
+    - (57) 301
+    - (57) 300

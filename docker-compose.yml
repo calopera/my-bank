@@ -1,0 +1,28 @@
+services:
+  customers:
+    image: "caaloper/my-bank-customers:v0.0.2"
+    container_name: my-bank-customers
+    ports:
+      - "8000:8000"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - accenture
+  accounts:
+    image: "caaloper/my-bank-accounts:v0.0.2"
+    container_name: my-bank-accounts
+    ports:
+      - "8010:8010"
+    deploy:
+      resources:
+        limits:
+          memory: 700m
+    networks:
+      - accenture
+
+
+networks:
+  accenture:
+    driver: "bridge"

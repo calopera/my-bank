@@ -1,0 +1,16 @@
+spring:
+  config:
+    activate:
+      on-profile: "qa"
+
+  build:
+    version: "v0.0.2"
+
+support:
+  message: "Bienvenidos al sistema de cuentas bancarias de Accenture - Sistema de pruebas"
+  contactInfo:
+    name: "QA"
+    email: "product.tester@prueba_qa.com"
+  phoneNumbers:
+    - (57) 301
+    - (57) 300
